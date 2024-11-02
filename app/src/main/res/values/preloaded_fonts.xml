@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/anton</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/convergence</item>
+        <item>@font/dm_sans</item>
+        <item>@font/dm_sans_bold</item>
+        <item>@font/hind_guntur_semibold</item>
+        <item>@font/hind_madurai_semibold</item>
+        <item>@font/krona_one</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

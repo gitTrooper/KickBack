@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Bottom_user_profile">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/tool"
+            layout="@layout/custom_tool_bar"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/tool"
+        android:id="@+id/userInfoCard"
+        app:cardElevation="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/userimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            />
+
+            <RelativeLayout
+                android:id="@+id/userText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:id="@+id/userProfileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:text="User Name"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:id="@+id/userProfileEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/userProfileName"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="User Email"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/userConfirmedCashback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/userProfileEmail"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Confirmed Cashback"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@id/userConfirmedCashback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userPendingCashback"
+                    android:text="Pending Cashback"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/userInfoCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/menuItems"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:rowCount="6">
+
+
+            <LinearLayout
+                android:id="@+id/withdrawEarnings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/wallet_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:text="Withdraw Your Earnings"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ticketRaise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/contact_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:text="Raise A Cashback Query"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/userHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/help_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:text="Help"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/userRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/rateicon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:text="Rate Us"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/rule_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:text="How To Use?"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/menuItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="1"
+                android:rowCount="1">
+
+
+                <LinearLayout
+                    android:id="@+id/logoutButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_marginStart="7dp"
+                        android:src="@drawable/logoutbtn"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/balsamiq_sans"
+                        android:text="Logout"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </GridLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</FrameLayout>

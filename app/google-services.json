@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "885029247162",
+    "firebase_url": "https://tobenamed-b28a1-default-rtdb.firebaseio.com",
+    "project_id": "tobenamed-b28a1",
+    "storage_bucket": "tobenamed-b28a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885029247162:android:daabfdd41deb982daaca83",
+        "android_client_info": {
+          "package_name": "com.saidev.PaiseWala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885029247162-om874gqgpgrt4qhpb2jm0qha0q9om85v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZTcREvzWRWAkmRyz9XZq2Oa_W5sEf2K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885029247162-om874gqgpgrt4qhpb2jm0qha0q9om85v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

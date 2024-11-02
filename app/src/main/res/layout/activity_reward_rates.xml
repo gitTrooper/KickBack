@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rewardRates">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="525dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="11">
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Kitchen And Housewares"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="8%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Furniture | DIY | TOOLS"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="8%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Grocery | Pantry"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="6%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Automotive | Sports"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="5%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Computer | Electronics"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="4%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Movies | Music | Games"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="3.5%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pet Products | Books | Toys"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="3.5%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Apparel | Watch | Shoes"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="4%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Health, Beauty &amp; Personal Care"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="3%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jewelleries"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="2.5%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Television &amp; Mobile Accessories"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="3%"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+            </GridLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/alata"
+            android:text="Exceptions"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+        <TextView
+            android:fontFamily="@font/balsamiq_sans"
+            android:paddingEnd="9dp"
+            android:paddingStart="9dp"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="1. Flight Booking, Gift Cards, Prime Membership And Video Gaming Consoles, Gold And Silver Coins"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:fontFamily="@font/balsamiq_sans"
+            android:paddingStart="9dp"
+            android:paddingEnd="9dp"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="2. Realme: Realme Narzo 50A, Realme Narzo 50i, Redmi: Redmi 9A , Redmi Note 10 Pro, Redmi Note 10 Pro Max, Redmi Note 10S, Redmi Note 10T 5G"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:fontFamily="@font/balsamiq_sans"
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="9dp"
+            android:paddingEnd="9dp"
+            android:text="3. Cashback Will Be Confirmed Within 48Hrs Of Shipping And It Will Be Transferred Into Your Account After The End Of Return Period"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/alata"
+            android:text="Do Not"
+            android:textColor="#F44336"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt" />
+
+        <TextView
+            android:fontFamily="@font/balsamiq_sans"
+            android:paddingStart="9dp"
+            android:paddingEnd="9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="Open other coupon app or website while using this app"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

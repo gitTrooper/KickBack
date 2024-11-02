@@ -1,0 +1,81 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/bottom_rounded_bar.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/bottom_selector.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/button_background_blue.xml" value="0.24" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/cnfuserpurchase.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/contact_icon.xml" value="0.1685" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/custom_app_bar_background.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/followicon.xml" value="0.2185" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/help_icon.xml" value="0.1685" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/ic_google_plus.xml" value="0.121" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1685" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/nav_history.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/nav_home.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/nav_profile.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/nav_store.xml" value="0.2185" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/pending_bg.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/pending_bg2.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/rateicon.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/rule_icon.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/searchbackground.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/searchbtn.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/social_icon.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/text_bg.xml" value="0.174" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/transparent_background.xml" value="0.2185" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/drawable/userimg.xml" value="0.1685" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout-land/purchase_dialog.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_game.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_how_to_use.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_login.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_onclick_product_view.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_register.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_reward_rates.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_store_page.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/activity_user_reward.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/animated_ad_banner.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/animated_ad_poster.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/budget_cards.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/category_child.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/childitem.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/coin_redeem_cards.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/custom_tool_bar.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/fragment_bottom_history.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/fragment_bottom_home_frag.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/fragment_bottom_search.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/fragment_bottom_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/history_holder.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/nohistory.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/nointernetdialog.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/onclick_product_webview.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/parentitem.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/payout_history_holder.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/payout_request.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/purchase_dialog.xml" value="0.291970802919708" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/purchasedialog.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/reward_cnf_dialog.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/store_details_page.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/storecard.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/layout/usepageitem.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/menu/menu_navigation_options.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/tobenamed/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2185" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://schemas.android.com/apk/res/android" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
